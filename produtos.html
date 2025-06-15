@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMercado</title>
+    <link rel="stylesheet" href="teste.js">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">SuperMercado</div>
+        <div class="barra-pesquisa">
+            <input type="text" placeholder="Buscar produtos...">
+        </div>
+        <div id="icone-carrinho-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/819/819792.png" id="icone-carrinho" alt="Carrinho"
+                onclick="produtoCarrinho()" />
+            <span id="notificacao-carrinho"><img src="" alt=""></span>
+        </div>
+    </header>
+    <section id="container">
+        <!--- <div id="cabeçalho">
+            <h1 id="titulo-produtos">PRODUTOS</h1>
+            <div id="icone-carrinho-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" id="icone-carrinho" alt="Carrinho"
+                    onclick="produtoCarrinho()" />
+                <span id="notificacao-carrinho"><img src="" alt=""></span>
+            </div>-->
+        </div>
+        <h1 id="titulo-produtos">Ofertas do dia!</h1>
+        <div id="lista-produtos"></div>
+    </section>
+    <script async src="script.js"></script>
+
+    <dialog id="mostrar-carrinho">
+        <div>
+            <h2>Carrinho de compras</h2>
+            <div id="carrinho"></div>
+            <button id="limpar-carrinho" onclick="limparCarrinho()">Limpar Carrinho</button>
+            <button id="finalizar-compra" onclick="finalizarCompra()">Finalizar Compra</button>
+        </div>
+    </dialog>
+      <footer>
+    <div>
+      <p id="copyright"> Projeto desenvolvido por <i>Otávio Grassi</i>.</p>
+      <a href="https://www.linkedin.com/in/otavio-grassi/" target="_blank">Linkedin</a>
+      <a href="https://github.com/OtavioGrassi" target="_blank">GitHub</a>
+      <a href="https://portfolio-otavio-grassi.netlify.app/" target="_blank">Portfolio</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>

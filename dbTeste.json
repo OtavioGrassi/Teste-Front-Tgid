@@ -1,0 +1,193 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Arroz Branco Tipo 1",
+      "imagem": "https://muffatosupermercados.vtexassets.com/arquivos/ids/215221-800-auto?v=636027093021070000&width=800&height=auto&aspect=true",
+      "marca": "Tio João",
+      "categoria": "Alimentos",
+      "preco": 23.90,
+      "unidade": "5kg"
+    },
+    {
+      "id": 2,
+      "nome": "Feijão Carioca",
+      "imagem": "https://carrefourbrfood.vtexassets.com/arquivos/ids/194917/466506_1.jpg?v=637272434027000000",
+      "marca": "Kicaldo",
+      "categoria": "Alimentos",
+      "preco": 8.49,
+      "unidade": "1kg"
+    },
+    {
+      "id": 3,
+      "nome": "Óleo de Soja",
+      "imagem": "https://carrefourbrfood.vtexassets.com/arquivos/ids/211616/141836_1.jpg?v=637272514200130000",
+      "marca": "Soya",
+      "categoria": "Alimentos",
+      "preco": 6.99,
+      "unidade": "900ml"
+    },
+    {
+      "id": 4,
+      "nome": "Detergente Líquido",
+      "imagem": "https://castronaves.vteximg.com.br/arquivos/ids/371251-1000-1000/84574_01.jpg?v=637655863428400000",
+      "marca": "Ypê",
+      "categoria": "Limpeza",
+      "preco": 2.59,
+      "unidade": "500ml"
+    },
+    {
+      "id": 5,
+      "nome": "Papel Higiênico",
+      "imagem": "https://m.media-amazon.com/images/I/71X9mMJ6ATL.jpg",
+      "marca": "Neve",
+      "categoria": "Higiene",
+      "preco": 14.90,
+      "unidade": "12 rolos"
+    },
+    {
+      "id": 6,
+      "nome": "Leite Integral",
+      "imagem": "https://zaffari.vtexassets.com/arquivos/ids/271153/1087590-00.jpg?v=638755954449800000",
+      "marca": "Parmalat",
+      "categoria": "Laticínios",
+      "preco": 4.89,
+      "unidade": "1L"
+    },
+    {
+      "id": 7,
+      "nome": "Café Torrado e Moído",
+      "imagem": "https://www.davo.com.br/ccstore/v1/images/?source=/file/v4287985499910784506/products/prod_7891021006125.imagem1.jpg&height=940&width=940",
+      "marca": "Melitta",
+      "categoria": "Bebidas",
+      "preco": 11.75,
+      "unidade": "500g"
+    },
+    {
+      "id": 8,
+      "nome": "Sabonete",
+      "imagem": "https://dannycosmeticos.vtexassets.com/arquivos/ids/254207-800-800?v=637902993508570000&width=800&height=800&aspect=true",
+      "marca": "Dove",
+      "categoria": "Higiene",
+      "preco": 3.25,
+      "unidade": "90g"
+    },
+    {
+      "id": 9,
+      "nome": "Refrigerante Cola",
+      "imagem": "https://superprix.vteximg.com.br/arquivos/ids/210608-600-600/BMo6Zlso.png?v=638083543189830000",
+      "marca": "Coca-Cola",
+      "categoria": "Bebidas",
+      "preco": 7.49,
+      "unidade": "2L"
+    },
+    {
+      "id": 10,
+      "nome": "Macarrão Parafuso",
+      "imagem": "https://giassi.vtexassets.com/arquivos/ids/2758065/Macarrao-de-Semola-com-Ovos-Parafuso-Renata-Pacote-500g.png?v=638627565567530000",
+      "marca": "Renata",
+      "categoria": "Massas",
+      "preco": 4.10,
+      "unidade": "500g"
+    },
+    {
+      "id": 11,
+      "nome": "Manteiga com Sal",
+      "imagem": "https://carrefourbrfood.vtexassets.com/arquivos/ids/190431/3280578_1.jpg?v=637272423073200000",
+      "marca": "Aviação",
+      "categoria": "Laticínios",
+      "preco": 12.99,
+      "unidade": "200g"
+    },
+    {
+      "id": 12,
+      "nome": "Sabão em Pó",
+      "imagem": "https://cepel.vteximg.com.br/arquivos/ids/169157-1000-1000/26337---Sabao-em-Po-OMO.png?v=637716533305530000",
+      "marca": "Omo",
+      "categoria": "Limpeza",
+      "preco": 18.90,
+      "unidade": "800g"
+    },
+    {
+      "id": 13,
+      "nome": "Água Mineral Sem Gás",
+      "imagem": "https://drogariasp.vteximg.com.br/arquivos/ids/527809-1000-1000/345652---agua-mineral-crystal-sem-gas-500ml.jpg?v=637787388085930000",
+      "marca": "Crystal",
+      "categoria": "Bebidas",
+      "preco": 2.25,
+      "unidade": "1.5L"
+    },
+    {
+      "id": 14,
+      "nome": "Iogurte Natural",
+      "imagem": "https://ibassets.com.br/ib.item.image.large/l-a6837e61b4234244843d3dd0f131cfe9.jpeg",
+      "marca": "Itambé",
+      "categoria": "Laticínios",
+      "preco": 1.99,
+      "unidade": "170g"
+    },
+    {
+      "id": 15,
+      "nome": "Achocolatado em Pó",
+      "imagem": "https://phygital-files.mercafacil.com/catalogo/uploads/produto/achocolatado_em_p_nescau_nestl_370gr_57ab10d8-a051-4fd2-b11d-948d3a153470.jpg",
+      "marca": "Nescau",
+      "categoria": "Alimentos",
+      "preco": 6.49,
+      "unidade": "370g"
+    },
+    {
+      "id": 16,
+      "nome": "Shampoo Anticaspa",
+      "imagem": "https://drogariasp.vteximg.com.br/arquivos/ids/1114622-1000-1000/285617---shampoo-feminino-head-shoulders-anticaspa-anticoceira-400ml_0006_7506195142042_1.png?v=638530193717830000",
+      "marca": "Head & Shoulders",
+      "categoria": "Higiene",
+      "preco": 16.75,
+      "unidade": "400ml"
+    },
+    {
+      "id": 17,
+      "nome": "Desinfetante",
+      "imagem": "https://s3.amazonaws.com/lepok.w/produtos/produtos/04108.webp",
+      "marca": "Veja",
+      "categoria": "Limpeza",
+      "preco": 5.50,
+      "unidade": "500ml"
+    },
+    {
+      "id": 18,
+      "nome": "Biscoito Recheado",
+      "imagem": "https://carrefourbrfood.vtexassets.com/arquivos/ids/181641478/biscoito-passatempo-recheado-chocolate-130g-1.jpg?v=638700399280200000",
+      "marca": "Passatempo",
+      "categoria": "Alimentos",
+      "preco": 2.89,
+      "unidade": "130g"
+    },
+    {
+      "id": 19,
+      "nome": "Maionese Tradicional",
+      "imagem": "https://m.media-amazon.com/images/I/712lklEJVOL.jpg",
+      "marca": "Hellmann's",
+      "categoria": "Alimentos",
+      "preco": 8.29,
+      "unidade": "500g"
+    },
+    {
+      "id": 20,
+      "nome": "Cerveja Pilsen",
+      "imagem": "https://deskontao.agilecdn.com.br/9789_1.jpg?v=17-1681752696",
+      "marca": "Skol",
+      "categoria": "Bebidas",
+      "preco": 2.79,
+      "unidade": "269ml"
+    },
+    {
+      "id": 21,
+      "nome": "Queijo Mussarela Fatiado",
+      "imagem": "https://brf.file.force.com/servlet/servlet.ImageServer?id=0154w000024mJwS&oid=00D410000012TJa&lastMod=1692733507000",
+      "marca": "Sadia",
+      "categoria": "Laticínios",
+      "preco": 9.99,
+      "unidade": "150g"
+    }
+  ]
+}

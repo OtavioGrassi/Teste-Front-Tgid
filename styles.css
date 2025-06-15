@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    background-color: rgb(64, 154, 60);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.barra-pesquisa {
+    flex: 1;
+    margin: 0 30px;
+}
+
+.barra-pesquisa input {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+#container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#titulo-produtos {
+    font-size: 20pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 100%;
+    min-height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 12px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.produto:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+    background-color: white;
+}
+
+.produto button {
+    margin-top: auto;
+}
+
+.button-adicionar {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(64, 154, 60);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+}
+
+#cabeçalho {
+    display: flex;
+    gap: 85%;
+}
+
+#icone-carrinho-container {
+    position: relative;
+    display: inline-block;
+}
+
+#icone-carrinho {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    color: white;
+}
+
+#icone-carrinho:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#notificacao-carrinho {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: none;
+    border: 2px solid white;
+
+}
+
+#mostrar-carrinho {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 400px;
+}
+
+#botão-remover {
+    width: 40%;
+    height: 50px;
+    background-color: red;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 12pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#botão-incrementar {
+    width: 40%;
+    height: 50px;
+    background-color: rgb(64, 154, 60);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 12pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#limpar-carrinho {
+    width: 40%;
+    height: 50px;
+    background-color: gray;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 12pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#finalizar-compra {
+    width: 40%;
+    height: 50px;
+    background-color: rgb(0, 153, 255);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 12pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.produto:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+    background-color: white;
+}
+
+.item-confirmacao {
+    font-size: 12pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 400px;
+}
+
+#titulo-confirmação,
+#total-compra {
+    font-size: 20pt;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 400px;
+}
+
+.item-confirmacao {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(64, 154, 60);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    font-family: Arial, sans-serif;
+}

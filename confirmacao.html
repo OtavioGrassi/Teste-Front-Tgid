@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Realizada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="titulo-confirmação">Compra Realizada com Sucesso!</h1>
+    <div id="resumo-compra"></div>
+
+    <script>
+        const dados = localStorage.getItem('compraFinalizada');
+        const itens = JSON.parse(dados);
+
+        const container = document.getElementById('resumo-compra');
+
+        if (itens && itens.length > 0) {
+            let totalGeral = 0;
+
+            itens.forEach(item => {
+                totalGeral += item.total;
+
+                const div = document.createElement('div');
+                div.className = 'item-confirmacao';
+                div.innerHTML = `
+                    <img src="${item.imagem}" alt="${item.nome}" style="width: 60px;">
+                    <p><strong>${item.nome}</strong></p>
+                    <p>Quantidade: ${item.quantidade}</p>
+                    <p>Preço Unitário: R$ ${item.preco.toFixed(2)}</p>
+                    <p>Total: R$ ${item.total.toFixed(2)}</p>
+                `;
+                container.appendChild(div);
+            });
+
+            const totalDiv = document.createElement('div');
+            totalDiv.innerHTML = `<h2 id="total-compra">Total da compra: R$ ${totalGeral.toFixed(2)}</h2>`;
+            container.appendChild(totalDiv);
+        } else {
+            container.innerHTML = '<p>Nenhum item encontrado.</p>';
+        }
+
+        // Limpa o carrinho salvo após exibir
+        localStorage.removeItem('compraFinalizada');
+    </script>
+</body>
+
+</html>

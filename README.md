@@ -1,5 +1,7 @@
 # 🛒 Supermercado - Loja Online (Desafio Frontend)
 
+![Print da aplicação funcionando](https://github.com/OtavioGrassi/Teste-Front-Tgid/blob/main/print_projeto.png?raw=true)
+
 Este é um projeto desenvolvido como parte de um desafio para uma vaga de estágio de **Desenvolvedor Frontend** na empresa tgid, cujo objetivo era simular uma loja online com funcionalidades de listagem de produtos e carrinho de compras.
 
 ---
